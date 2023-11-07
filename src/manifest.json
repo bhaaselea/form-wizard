@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Elea Form Wizard Extension",
+  "version": "0.4.0",
+  "description": "A web extension for caregivers of children with developmental disabilities that stores important information and conveniently autofills forms with the saved information.",
+  "icons": {
+    "16": "icon-16.png",
+    "32": "icon-32.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon-16.png",
+    "default_title": "Open up the Elea Form Wizard"
+  },
+  "background": { "service_worker": "background.bundle.js" },
+  "options_page": "dashboard.html",
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "permissions": ["sidePanel", "contextMenus", "storage", "clipboardWrite", "activeTab", "tabs", "scripting"],
+  "host_permissions": [
+    "https://*/*"
+  ]
+}

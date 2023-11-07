@@ -1,0 +1,12 @@
+.App-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 65%;
+}
+
+header {
+  display: flex;
+  height: 140px;
+  align-items: center;
+}

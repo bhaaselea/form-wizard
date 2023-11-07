@@ -1,0 +1,11 @@
+.app-logo {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
+
+#app-header {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
